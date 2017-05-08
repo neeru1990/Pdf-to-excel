@@ -31,10 +31,10 @@ if($output != ''){
 ?>
 <div class="alert alert-warning">
   <h4><strong>Please enter the password !</strong><h4>
-  <small>It might be your PAN number if individual or TAN in case of company.</small>
+  
 </div>
 <div style = "padding: 0px 17px 10px;">
-	<form method="post" action="/trutax_development/paytax/form-summary" class = "bs-example bs-example-form" role = "form">
+	<form method="post" action="#" class = "bs-example bs-example-form" role = "form">
 		<div class="input-group">
 			<label for="pdfPass">Password:</label>
 			<input type=text class="form-control" name="PDFpassword" id="pdfPass" aria-describedby="passInput" placeholder="*******"><br>
